@@ -1,8 +1,8 @@
- package = "CoroniumGS"
+ package = "coronasdk-gs"
  version = "1.0-1"
  source = {
     url = "git://github.com/develephant/Coronium-GS-Client",
-    tag = "v0.3",
+    tag = "v0.3"
  }
  description = {
     summary = "The CoroniumGS Client Package",
@@ -11,9 +11,10 @@
        Learn more about CoroniumGS at http://coronium.gs
     ]],
     homepage = "https://github.com/develephant/Coronium-GS-Client",
-    license = "MIT"
+    license = "MIT/X11" -- or whatever you like
  }
  build = {
     type = "builtin",
-    copy_directories = { "doc" }
+    modules = { },
+    copy_directories = { "docs" }
  }
