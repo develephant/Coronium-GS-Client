@@ -2,7 +2,7 @@
  version = "1.0-1"
  source = {
     url = "git://github.com/develephant/Coronium-GS-Client",
-    tag = "v0.1",
+    tag = "v0.2",
  }
  description = {
     summary = "The CoroniumGS Client Package",
