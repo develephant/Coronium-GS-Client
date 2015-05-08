@@ -2,7 +2,7 @@
  version = "1.0-1"
  source = {
     url = "git://github.com/develephant/Coronium-GS-Client",
-    tag = "v0.3"
+    tag = "v0.4"
  }
  description = {
     summary = "The CoroniumGS Client Package",
@@ -16,5 +16,5 @@
  build = {
     type = "builtin",
     modules = { },
-    copy_directories = { "docs" }
+    copy_directories = { "doc" }
  }
