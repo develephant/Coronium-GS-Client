@@ -1,7 +1,8 @@
  package = "CoroniumGS"
  version = "1.0-1"
  source = {
-    url = "..." -- We don't have one yet
+    url = "git://github.com/develephant/Coronium-GS-Client",
+    tag = "v0.1",
  }
  description = {
     summary = "The CoroniumGS Client Package",
@@ -9,8 +10,8 @@
        This is the Client package for CoroniumGS (Game Server).
        Learn more about CoroniumGS at http://coronium.gs
     ]],
-    homepage = "http://...", -- We don't have one yet
-    license = "MIT/X11" -- or whatever you like
+    homepage = "https://github.com/develephant/Coronium-GS-Client",
+    license = "MIT"
  }
  build = {
     type = "builtin",
